@@ -1,0 +1,78 @@
+.wholed {
+  background-image: url('../assets/pexels-thatguycraig000-1563355.jpg'); /* Replace with your actual image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Ensures the background covers the full height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.managea {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: rgba(0, 0, 0, 0.7); */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  background-color: #22222265;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  margin-left: 220px;
+  margin-top: 30px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center; /* Centers text inside table cells */
+  vertical-align: middle; /* Ensures vertical centering */
+  color: white;
+}
+
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+.no-data {
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 5px 10px;
+  margin: 2px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn.edit {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn.save {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn.cancel {
+  background-color: #6c757d;
+  color: white;
+}

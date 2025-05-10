@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-land{
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+.hero1 {
+    background-image: url('../assets/pexels-thatguycraig000-1563355.jpg');
+    background-size: cover;
+
+    color: #ffffff;
+    text-align: center;
+    padding: 280px 0;
+    height: 100vh;
+    width: 100vw;
+    text-shadow: #252018 0px 0px 7px;
+}
+
+.hero1 h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    background-color: #0201012f;
+
+}
+.hero1 p {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    background-color: #0201012f;
+}
+.btn-main {
+    display: inline-block;
+    background-color:#e49116;
+    color: #fff;
+    padding: 15px 29px;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background-color 0.1s;
+    font-size: medium;
+    background-color: #161003d4;
+
+    border: none;
+}
+.btn-main:hover {
+    cursor: pointer;
+    background-color: #02010163;
+
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+}
